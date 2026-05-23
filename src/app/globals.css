@@ -39,3 +39,29 @@ body {
     color: var(--text-dark);
 }
 
+@layer components {
+    .display-text{
+        @apply text-5xl md:text-6xl font-blank tracking-tight;
+    }
+
+    .h1-text{
+        @apply text-4xl font-extrabold tracking-tight;
+    }
+
+    .h2-text{
+        @apply text-3xl font-bold;
+    }
+
+    .h3-text{
+        @apply text-xl font-bold;
+    }
+
+    .body-text{
+        @apply text-base leading-7 text-[#8A8A8A];
+    }
+
+    .caption-text{
+        @apply text-sm font-medium text-[#8A8A8A];
+    }
+}
+
